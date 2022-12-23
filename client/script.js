@@ -7,13 +7,13 @@ const chatContainer = document.querySelector("#chat_container");
 let loadInterval;
 
 function loader(element) {
-  element.textContent = "";
+  element.textContent = "وایسا دارم فکر میکنم";
 
   loadInterval = setInterval(() => {
     element.textContent += ".";
 
-    if (element.textContent === "....") {
-      element.textContent = "";
+    if (element.textContent === "وایسا دارم فکر میکنم....") {
+      element.textContent = "وایسا دارم فکر میکنم";
     }
   }, 300);
 }

@@ -117,8 +117,8 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
-
+  background: #1b1d2f;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   gap: 10px;
